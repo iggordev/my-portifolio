@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Igor Vinicius — Cloud, DevOps e Engenharia de Prompt." />
+  <title>Igor Vinicius | Cloud & DevOps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="#inicio" class="logo" data-magnetic>
+        <span class="logo-bracket">&lt;</span>Igor<span class="logo-accent">.dev</span><span class="logo-bracket">/&gt;</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="menu" id="menu">
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experiencia" class="nav-link">Experiência</a>
+        <a href="#certificados" class="nav-link">Certificados</a>
+        <a href="#contato" class="nav-link nav-link--cta">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <p class="hero-eyebrow">
+            <span class="status-dot"></span>
+            Disponível para oportunidades
+          </p>
+          <h1>
+            Igor Vinicius<br />
+            <span class="gradient-text" id="typedRole"></span><span class="typed-cursor" aria-hidden="true">|</span>
+          </h1>
+          <p class="hero-desc">
+            Profissional em transição para tecnologia com foco em Engenharia de Prompt,
+            Cloud Computing e DevOps. Experiência com AWS, Docker, Go, Git,
+            desenvolvimento back-end.
+          </p>
+          <div class="hero-tags" id="heroTags">
+            <span class="tag" data-tilt>AWS</span>
+            <span class="tag" data-tilt>Docker</span>
+            <span class="tag" data-tilt>Python</span>
+            <span class="tag" data-tilt>DevOps</span>
+            <span class="tag" data-tilt>Cloud</span>
+            <span class="tag" data-tilt>GO</span>
+          </div>
+          <div class="buttons">
+            <a href="#contato" class="btn btn-primary" data-magnetic data-ripple>Entrar em contato</a>
+            <a href="https://www.linkedin.com/in/igor-vin%C3%ADcius-developer" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" data-magnetic data-ripple>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        <aside class="hero-card reveal reveal-delay-2" data-tilt-card>
+          <div class="hero-card-glow" aria-hidden="true"></div>
+          <h3>Resumo Profissional</h3>
+          <ul>
+            <li><span class="check-icon">✓</span> Administração de Empresas</li>
+            <li><span class="check-icon">✓</span> Formação técnica em Design Gráfico</li>
+            <li><span class="check-icon">✓</span> Estudante de ADS</li>
+            <li><span class="check-icon">✓</span> Interesse em Cloud e DevOps</li>
+            <li><span class="check-icon">✓</span> Experiência com Web Analytics</li>
+          </ul>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number" data-count="3">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Áreas de foco</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="6">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Tecnologias</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <a href="#sobre" class="scroll-hint" aria-label="Rolar para baixo">
+        <span>Scroll</span>
+        <span class="scroll-hint-line"></span>
+      </a>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container">
+        <header class="section-title reveal">
+          <span class="section-label">01 — Sobre</span>
+          <h2>Sobre Mim</h2>
+          <p>Minha jornada profissional e objetivos na tecnologia.</p>
+        </header>
+        <div class="about reveal">
+          <div class="about-visual" aria-hidden="true">
+            <div class="orbit">
+              <span class="orbit-item">☁️</span>
+              <span class="orbit-item">🐳</span>
+              <span class="orbit-item">📊</span>
+              <span class="orbit-item">⚙️</span>
+            </div>
+            <div class="about-core">IV</div>
+          </div>
+          <article class="about-card" data-tilt-card>
+            <p>Sou formado em <strong>Administração de Empresas</strong>, com formação técnica em <strong>Design Gráfico</strong>, atualmente cursando <strong>Análise e Desenvolvimento de Sistemas</strong>.</p>
+            <p>Tenho direcionado meus estudos e projetos para <strong>Cloud Computing</strong>, <strong>Engenharia de Prompt</strong>, <strong>DevOps</strong> e automação de infraestrutura.</p>
+            <p>Venho desenvolvendo habilidades práticas utilizando AWS, Docker, Git, Python, Power BI e bancos de dados relacionais.</p>
+            <p>Meu objetivo é atuar em ambientes de tecnologia com foco em infraestrutura, dados, pipelines e soluções escaláveis em nuvem.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <header class="section-title reveal">
+          <span class="section-label">02 — Skills</span>
+          <h2>Skills & Tecnologias</h2>
+          <p>Tecnologias e ferramentas utilizadas nos estudos e projetos.</p>
+        </header>
+        <div class="skills-grid">
+          <article class="skill-card reveal" data-tilt-card>
+            <div class="skill-icon">☁️</div>
+            <h3>Cloud</h3>
+            <p>AWS, EC2, S3 e fundamentos de computação em nuvem.</p>
+            <div class="skill-bar"><span data-progress="90"></span></div>
+          </article>
+          <article class="skill-card reveal reveal-delay-1" data-tilt-card>
+            <div class="skill-icon">⚙️</div>
+            <h3>DevOps</h3>
+            <p>Docker, Git, versionamento e estruturação de ambientes.</p>
+            <div class="skill-bar"><span data-progress="85"></span></div>
+          </article>
+          <article class="skill-card reveal reveal-delay-2" data-tilt-card>
+            <div class="skill-icon">🖥️</div>
+            <h3>Back-End</h3>
+            <p>Java, Spring Boot, Python e automações.</p>
+            <div class="skill-bar"><span data-progress="80"></span></div>
+          </article>
+          <article class="skill-card reveal reveal-delay-3" data-tilt-card>
+            <div class="skill-icon">📊</div>
+            <h3>Dados</h3>
+            <p>Pandas, Power BI, Excel, Tableau e análise de dados.</p>
+            <div class="skill-bar"><span data-progress="82"></span></div>
+          </article>
+          <article class="skill-card reveal" data-tilt-card>
+            <div class="skill-icon">🗄️</div>
+            <h3>Banco de Dados</h3>
+            <p>MySQL e fundamentos de modelagem de dados.</p>
+            <div class="skill-bar"><span data-progress="75"></span></div>
+          </article>
+          <article class="skill-card reveal reveal-delay-1" data-tilt-card>
+            <div class="skill-icon">🎨</div>
+            <h3>Design</h3>
+            <p>Experiência em identidade visual e comunicação digital.</p>
+            <div class="skill-bar"><span data-progress="88"></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experiencia">
+      <div class="container">
+        <header class="section-title reveal">
+          <span class="section-label">03 — Carreira</span>
+          <h2>Experiência Profissional</h2>
+          <p>Experiências que contribuíram para minha evolução profissional.</p>
+        </header>
+        <div class="timeline">
+          <article class="timeline-item reveal" data-tilt-card>
+            <div class="timeline-dot"></div>
+            <time>Março 2022 — Atual</time>
+            <h3>Imagine e Desenhe — Designer Pleno</h3>
+            <p>Desenvolvimento de materiais de comunicação para marcas e projetos diversos, garantindo consistência visual e identidade da marca em diferentes plataformas.</p>
+          </article>
+          <article class="timeline-item reveal reveal-delay-1" data-tilt-card>
+            <div class="timeline-dot"></div>
+            <time>Fevereiro 2021 — Janeiro 2022</time>
+            <h3>Grupo Pão de Açúcar (GPA) — Estágio em Web Analytics</h3>
+            <p>Monitoramento e análise de dados de navegação em ambientes digitais, acompanhamento de métricas de desempenho, conversão e engajamento.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="certificados">
+      <div class="container">
+        <header class="section-title reveal">
+          <span class="section-label">04 — Formação</span>
+          <h2>Certificações</h2>
+          <p>Formações voltadas para cloud, dados e tecnologia.</p>
+        </header>
+        <div class="certifications">
+          <article class="cert-card reveal" data-tilt-card>
+            <span class="cert-badge">AWS</span>
+            <h3>AWS re/Start</h3>
+            <p>Fundamentos de Computação em Nuvem pela Escola da Nuvem. Formação focada em AWS, infraestrutura e cloud computing.</p>
+          </article>
+          <article class="cert-card reveal reveal-delay-1" data-tilt-card>
+            <span class="cert-badge">Alura</span>
+            <h3>Alura — Dados & IA</h3>
+            <p>Formação em análise de dados, inteligência artificial e ferramentas para tomada de decisão.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <div class="container">
+        <header class="section-title reveal">
+          <span class="section-label">05 — Contato</span>
+          <h2>Vamos conversar?</h2>
+          <p>Estou em busca de oportunidades nas áreas de Cloud, DevOps, Dados e Tecnologia.</p>
+        </header>
+
+        <div class="contact-actions reveal">
+          <p class="contact-info-text">
+            Entre em contato pelo telefone ou LinkedIn.
+          </p>
+          <div class="contact-links">
+            <a href="tel:+551177673005" class="btn btn-primary" data-magnetic data-ripple>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              (11) 77673-005
+            </a>
+            <a href="https://www.linkedin.com/in/igor-vin%C3%ADcius-developer" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" data-magnetic data-ripple>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Igor Vinicius Campos dos Santos — Cloud & DevOps Portfolio</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
